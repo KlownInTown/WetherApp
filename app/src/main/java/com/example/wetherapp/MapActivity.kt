@@ -1,4 +1,4 @@
-package com.example.wetherapp // Убедись, что тут ТВОЕ имя пакета
+package com.example.wetherapp 
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
