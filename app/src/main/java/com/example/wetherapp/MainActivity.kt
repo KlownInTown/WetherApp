@@ -1,4 +1,4 @@
-package com.example.wetherapp // Тут будет твое имя пакета
+package com.example.wetherapp 
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
