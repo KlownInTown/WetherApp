@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_sky"> <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="МОСКВА"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☰"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поиск"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"/>
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10°"
+            android:textColor="#FFFFFF"
+            android:textSize="150sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☀️ Ясно"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#66000000"
+        android:padding="20dp"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView android:text="ВЕТЕР" android:textColor="#FFFFFF" android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="8.0 км/ч" android:textColor="#FFFFFF" android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView android:text="ОСАДКИ" android:textColor="#FFFFFF" android:textSize="16sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="0.0 мм" android:textColor="#FFFFFF" android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView android:text="ВЛАЖНОСТЬ" android:textColor="#FFFFFF" android:textSize="14sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="19 %" android:textColor="#FFFFFF" android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="КАРТА ОСАДКОВ"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/transparent"/>
+
+
+        <Button
+            android:id="@+id/btnFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ИЗБРАННОЕ"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+</LinearLayout>
